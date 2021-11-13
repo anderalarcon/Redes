@@ -11,3 +11,7 @@
 Complejidad Baja:
 ![image](https://user-images.githubusercontent.com/57463092/141654283-ba015166-2cf7-4b78-9f67-5ac0b3602aff.png)
 
+Complejidad Media:
+
+![image](https://user-images.githubusercontent.com/57463092/141654401-fc6c819b-1148-42ac-a309-a93ae0a46754.png)
+
