@@ -7,4 +7,7 @@
 #Ejecutarlo
 
 #Se mostrarán los resultados de las métricas seleccionadas.
-![image](https://user-images.githubusercontent.com/57463092/141654082-e0a39e22-a5bc-4bbb-9b33-16711e6c2929.png)
+
+Complejidad Baja:
+![image](https://user-images.githubusercontent.com/57463092/141654283-ba015166-2cf7-4b78-9f67-5ac0b3602aff.png)
+
