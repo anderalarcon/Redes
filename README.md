@@ -1,8 +1,8 @@
 # Implementación de algoritmo Dijkstra usando python 
 
-#Abrir cualquier IDE compatible con python y abrir el achivo "RC-602-CA2-Programa-ACHATA_20172991.py"
+#En la carpeta se encuentran 2 archivos txt que represantan los escenarios.
 
-#En ese misma carpeta se encuentran 2 archivos txt que representan a los escenarios baja y media definidos anteriormente,con lo cual no habra problema.
+#Si usa Visual Studio Code insertar la carpeta completa, si usa Spyder simplemente abrir el achivo py
 
 #Ejecutarlo
 
