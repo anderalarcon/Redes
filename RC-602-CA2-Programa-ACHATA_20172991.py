@@ -75,7 +75,10 @@ class Graph:
                 break  # Aca acabaría puesto que visitamos todos los nodos
 
         # Para construir la ruta , se iteraron los nodos desde el nodo final al nodo icnial
-       
+        print("Entradas a bucle:")
+        print(entradas_a_bucle)
+        print("Numero de veces que se revisa un nodo:")
+        print(revision_nodos)
         ruta = deque()
         nodo_actual = nodo_final
         while nodo_previo[nodo_actual] is not None:
@@ -87,21 +90,62 @@ class Graph:
 
 def main():
 
-
-    print("=========================ESCENARIO COMPLEJIDAD BASICA==========================")
+    print()
+    print("#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#")
+    print()
     verify_algorithm(
-        filename="basica.txt",
+        filename="anderson_achata_basico.txt",
+        start="A",
+        end="G",
+    )
+    print()
+    print("#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#")
+    print()
+    verify_algorithm(
+        filename="anderson_achata_media.txt",
+        start="A",
+        end="J",
+    )
+    print()
+    print("#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#")
+    print()
+    """
+    verify_algorithm(
+        filename="francisco_diaz_basico.txt",
         start="A",
         end="G",
     )
 
-    print("========================ESCENARIO COMPLEJIDAD MEDIA=========================")
+    print()
+    print("#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#")
+    print()
+
     verify_algorithm(
-        filename="media.txt",
+        filename="francisco_diaz_media.txt",
         start="A",
-        end="J",
+        end="K",
     )
 
+    print()
+    print("#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#")
+    print()
+
+    verify_algorithm(
+        filename="guillermo_falcon_basico.txt",
+        start="A",
+        end="D",
+    )
+
+    print()
+    print("#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#")
+    print()
+    verify_algorithm(
+        filename="guillermo_falcon_media.txt",
+        start="G",
+        end="B",
+    )
+
+"""
 
 
 

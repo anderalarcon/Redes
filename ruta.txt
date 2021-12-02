@@ -1,9 +1,0 @@
-Casa Salamanca 5
-Casa SanLuis 1
-Salamanca Puente 2
-SanLuis Puente 3
-Puente Monterrico 4
-Puente JavierPrado 2
-Monterrico JavierPrado 3
-Monterrico UniversidadDeLima 8
-Puente UniversidadDeLima 1

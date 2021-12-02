@@ -11,7 +11,7 @@ E F 3
 E I 8
 E H 7
 F G 2
-H 1 9
+H I 9
 I G 3
 I J 5
 G J 4
